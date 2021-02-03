@@ -1,10 +1,10 @@
 #!/bin/bash
 
-    #sudo apt update
-    #sudo apt full-upgrade -y
-    sudo parrot-upgrade -y
-    sudo apt clean
-    sudo apt autoclean
-    sudo apt autoremove -y
-    sudo aptitude purge ~c -y #dpkg -l | grep ^rc / apt list | grep 'residual-config'
-    #snap refresh
+sudo apt update
+sudo apt full-upgrade -y
+sudo apt clean
+sudo apt autoclean
+sudo apt autoremove -y
+sudo aptitude purge ~c -y #dpkg -l | grep ^rc / apt list | grep 'residual-config'
+
+#snap refresh #if you have snap installed
